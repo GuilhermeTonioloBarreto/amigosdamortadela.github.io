@@ -31744,11 +31744,22 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
 .u-header .u-sheet-1 {
-  min-height: 113px;
+  min-height: 145px;
+}
+
+.u-header .u-group-1 {
+  margin-top: 5px;
+  margin-bottom: -110px;
+  min-height: 135px;
+  height: auto;
+}
+
+.u-header .u-container-layout-1 {
+  padding: 27px 30px;
 }
 
 .u-header .u-image-1 {
-  margin: 18px auto 0 0;
+  margin: 1px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -31762,7 +31773,7 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 16px;
   width: 62px;
   min-width: 42px;
-  margin: -45px 0 0 auto;
+  margin: -52px 0 0 auto;
 }
 
 .u-header .u-icon-1 {
@@ -31774,7 +31785,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -31px 118px 16px auto;
+  margin: -26px 154px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -31791,9 +31802,17 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     width: 63px;
     height: 63px;
+    margin-top: 18px;
+  }
+
+  .u-header .u-social-icons-1 {
+    width: 62px;
+    margin-top: -45px;
+    margin-right: 0;
   }
 
   .u-header .u-menu-1 {
+    margin-top: -31px;
     margin-right: auto;
   }
 }
@@ -31806,6 +31825,11 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
     min-height: 150px;
+  }
+
+  .u-header .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .u-header .u-image-1 {
@@ -31824,24 +31848,30 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 119px;
+    min-height: 145px;
+  }
+
+  .u-header .u-group-1 {
+    margin-top: 0;
+    margin-bottom: -79px;
   }
 
   .u-header .u-image-1 {
     margin-top: 20px;
     margin-left: 20px;
+    width: auto;
   }
 
   .u-header .u-social-icons-1 {
+    width: 62px;
     margin-top: -52px;
-    margin-right: auto;
+    margin-right: 113px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -31px;
     margin-right: 31px;
-    margin-bottom: 42px;
   }
 }
 .u-footer {
