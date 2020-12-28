@@ -130,7 +130,9 @@
   }
 
   .u-section-2 .u-text-6 {
-    margin-left: 168px;
+    margin-top: 20px;
+    margin-right: 82px;
+    margin-left: 0;
   }
 }
 
@@ -158,7 +160,7 @@
   }
 
   .u-section-2 .u-text-6 {
-    margin-left: 118px;
+    margin-right: 32px;
   }
 }
 
@@ -175,11 +177,15 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
   .u-section-2 .u-text-5 {
     margin-right: 0;
   }
 
   .u-section-2 .u-text-6 {
-    margin-left: 0;
+    margin-right: 0;
   }
 }

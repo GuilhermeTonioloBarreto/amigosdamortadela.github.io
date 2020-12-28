@@ -136,7 +136,7 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-text-1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
   }
 }.u-section-3 {
   background-image: none;
@@ -234,10 +234,11 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 836px;
+    min-height: 798px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
+    margin-bottom: 14px;
     min-height: 508px;
   }
 
@@ -348,7 +349,7 @@
   }
 
   .u-section-4 .u-layout-wrap-1 {
-    min-height: 508px;
+    margin-top: 0;
   }
 
   .u-section-4 .u-image-1 {

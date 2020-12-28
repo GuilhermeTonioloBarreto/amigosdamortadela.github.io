@@ -142,3 +142,30 @@
     padding-right: 10px;
   }
 }
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 478px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 165px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 253px;
+  }
+
+  .u-section-2 .u-text-2 {
+    font-size: 1.125rem;
+    margin-top: 0;
+  }
+}
